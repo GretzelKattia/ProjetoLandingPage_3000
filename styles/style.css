@@ -1,0 +1,242 @@
+:root {
+    --cor-fundo: #2cbfe3;
+    --cor-snap: #FF6663;
+
+/*#8B85C1; */
+    /* #92D5E6; */
+    --cor-fundo-forms: #45cef0;
+
+    --cor-primaria: #f3bb22;
+    --cor-secundaria: #FF570A;
+    --cor-terciaria: #FAFFFD;
+
+    --fonte-unica-titulo: "Irish Grover", system-ui;
+    --fonte-unica-texto: "Mali", cursive;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-terciaria);
+
+    font-family: var(--fonte-unica-texto);
+    font-weight: 400;
+    font-style: normal;
+
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 25px 35px 0px 35px; 
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_menu_link_img {
+    width: 240px;
+    height: auto;
+    padding-top: 0px;
+    /* padding-left: 25px; */
+}
+
+.cabecalho_me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+i#menu{
+    display: none;
+    font-size: 54px;
+}
+
+
+
+
+.cabecalho_menu {
+    font-family: var(--fonte-unica-titulo);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.62rem;
+    color: var(--cor-terciaria);
+    text-decoration: none; 
+    margin: 0px 100px 0 70px;
+}
+
+.cabecalho_menu:hover {
+    color: var(--cor-primaria);
+    text-decoration: underline wavy var(--cor-secundaria); 
+    transition: 0.5s all;
+}
+
+
+#inscreva-se {
+    color: var(--cor-terciaria);
+
+    border: 2px solid var(--cor-primaria);
+    background-color: var(--cor-primaria);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    /* margin: 30px 30px 0 30px; */
+}
+
+#inscreva-se:hover {
+    border: 2px solid;
+    border-color: var(--cor-secundaria);
+
+    background-color: var(--cor-secundaria);
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 2.88rem;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 45px;
+    margin-top: 0px;
+    padding-bottom: 80px;
+}
+
+.tamanho_texto {
+    width:90%;
+}
+
+.subtitulo {
+    font-size: 2.25rem;
+    line-height: 38px;
+}
+
+span {
+    color: var(--cor-snap);
+}
+
+.paragrafo {
+    font-family: var(--fonte-unica-texto);
+    font-weight: 400;
+    font-style: normal;
+
+      
+    line-height: 30px;
+    /* max-width: 500px; */
+    font-size: 1.25rem;
+    margin-bottom: 45px;
+}
+
+.botao-customizado {
+    color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+    border-radius: 15px;
+    display: inline-block; 
+    text-decoration: none;
+    padding: 12px 22px;  
+    font-size: 1.6rem; 
+    cursor: pointer; 
+
+}
+
+.botao-customizado:hover {
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-secundaria);
+    padding: 15px 25px; 
+    transition: 0.3s all;
+}
+
+
+.imagem {
+    margin: 30px 30px 30px 0px;
+    max-width: 100%;
+}
+
+#partir {
+    background-color: var(--cor-fundo-forms);
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    right: auto;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 20px;
+    font-size: 1.125rem;
+
+}
+
+.caixa_texto {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    padding-right: 20px;
+}
+
+.imagem_caixa {
+    width: 300px;
+    margin-top: 20px; 
+}
+
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.enviar {
+    height: 50px;
+    width: 40%;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    border: 2px;
+    /* font-size: 1.125rem; */
+}
+
+.enviar:hover {
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 70%;
+    /* font-size: 1rem; */
+}
+
+.sub_subtitulo {
+    font-size: 1.625rem;
+}
+
+.sub_subtitulo-caixa {
+    font-size: 1.625rem;
+    color: var(--cor-snap);
+}
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px; 
+    color: var(--cor-terciaria);
+    font-weight: 300;
+    font-style: normal;
+
+}
