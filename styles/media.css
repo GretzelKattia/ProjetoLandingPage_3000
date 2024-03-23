@@ -24,8 +24,8 @@
     }
      
     .botao-customizado {
-        padding: 8px 16px; /* Ajuste o padding conforme necessário */
-        font-size: 1rem; /* Ajuste o tamanho da fonte conforme necessário */
+        padding: 8px 16px;
+        font-size: 1rem; 
     }
     
 
@@ -57,14 +57,15 @@
     }
 
     .botao-customizado {
-        padding: 7px 14px; /* Ajuste o padding conforme necessário */
-        font-size: 0.9rem; /* Ajuste o tamanho da fonte conforme necessário */
+        padding: 7px 14px; 
+        font-size: 0.9rem; 
     }
     
 
     .imagem {
         width: 90%;
     }
+    
     .principal {
         display: flex;
         flex-direction: column-reverse;
@@ -105,14 +106,12 @@
 
     i#menu {
         font-size: 34px;
-
     }
+    
     .cabecalho {
-        /* flex-direction: column; */
         padding: 0%;
         justify-content: space-between;
         margin: 0% 2% 0% 2%;
-
     }
 
     
@@ -125,8 +124,8 @@
     }
 
     .botao-customizado {
-        padding: 6px 12px; /* Ajuste o padding conforme necessário */
-        font-size: 0.8rem; /* Ajuste o tamanho da fonte conforme necessário */
+        padding: 6px 12px; 
+        font-size: 0.8rem; 
     }
     
 
@@ -134,8 +133,6 @@
         border: 1px solid var(--cor-terciaria);
         font-size: 1rem;
         flex-direction: column;
-
-
     }
 
     .formulario {
@@ -146,6 +143,7 @@
     input {
         width: 60%;
     }
+    
     .enviar {
         font-size: 1rem;
     }
@@ -164,7 +162,6 @@
 
     i#menu{
         padding-left: 400px;
-
     }
 
     .cabecalho {
@@ -182,7 +179,6 @@
 
     .cabecalho_menu_link_img {
         width: 90px;
-
     }
 
 
@@ -196,60 +192,51 @@
         font-size: 1.25rem;
         line-height: 25px;
         margin: 7% 1% 7% 0%;
-
-
     }
 
     .paragrafo {
         font-size: 0.7rem;
         line-height: 20px;
-
-
-
     }
 
     .botao-customizado {
-        padding: 5px 10px; /* Ajuste o padding conforme necessário */
-        font-size: 0.7rem; /* Ajuste o tamanho da fonte conforme necessário */
+        padding: 5px 10px; 
+        font-size: 0.7rem; 
     }
     
 
     .enviar {
         width: 40%;
     }
+    
     #partir {
-
         border: 1px solid var(--cor-terciaria);
-
-        /* padding: 35px; */
-
         flex-direction: column;
         align-items: center;
         width: 100%;
-
-
     }
+    
     .formulario {
-        width: 350px; /* Defina a largura desejada para o formulário */
+        width: 350px; 
     }
 
     .rodape {
-        width: 100%; /* Certifique-se de que o rodapé ocupa toda a largura */
-        text-align: center; /* Centralize o texto horizontalmente */
+        width: 100%; 
+        text-align: center; 
     }
 
     .sub_subtitulo {
         max-width: 400px;
-
     }
-
 
     .sub_subtitulo-caixa {
         font-size: 1.2rem;
     }
+    
     .sub_subtitulo {
         font-size: 1.1rem;
     }
+    
 }
 
 /* Media query para telas menores que 320px */
@@ -276,27 +263,21 @@
     }
 
     .cabecalho_me {
-        /* padding-left: 30%; */
         min-width: 10%;
     }
 
     .cabecalho {
         width: auto;
-        flex-direction: row; /* Altera a direção para empilhar verticalmente */
+        flex-direction: row; 
         justify-content: space-between;
-        /* gap: 50px; */
-
-        /* padding-left: 300px; */
-
     }
 
     .tamanho_texto {
         width: 100%;
     }
-    
 
     .cabecalho_menu_link_img {
-        width: 120px; /* Ajuste o tamanho conforme necessário */
+        width: 120px; 
     }
 
     .principal {
@@ -307,12 +288,12 @@
         padding-left: 30%;
         width: 180%;
     }
+    
     .subtitulo {
         font-size: 1.25rem;
         line-height: 25px;
         width: 460px;
         margin: 5%;
-
     }
 
     .paragrafo {
@@ -320,58 +301,46 @@
         line-height: 20px;
         width: 100%;
         margin: 5%;
-
-
     }
-
-    /* .principal {
-    } */
 
     .botao-customizado {
         margin: 5%;
-    padding: 4px 8px; /* Ajuste o padding conforme necessário */
-    font-size: 0.8rem; /* Ajuste o tamanho da fonte conforme necessário */
-}
-
+    padding: 4px 8px; 
+    font-size: 0.8rem; 
+    }
 
     .enviar {
         width: 40%;
         left: auto;
     }
+    
     #partir {
         flex-wrap: wrap;
         margin-left: 2%;
-
         border: 1px solid var(--cor-terciaria);
-
         padding: 105px; 
-        /* padding-right: 35px; */
-
         flex-direction: column;
         align-items: center;
         width: 98%;
         left: auto;
     }
+    
     .formulario{
-        /* max-width: 350px; */
-        margin: 0 auto; /* Centralizar horizontalmente */
-        
+        margin: 0 auto; 
     }
 
     .sub_subtitulo {
         max-width: 300px;
-
     }
 
     .caixa_texto {
         padding: 0px;
     }
 
-
-
     .sub_subtitulo-caixa {
         font-size: 1.5rem;
     }
+    
     .sub_subtitulo {
         font-size: 1.3rem;
     }
@@ -379,9 +348,6 @@
     .rodape {
         font-size: 0.8rem; /* Ajuste o tamanho da fonte do rodapé conforme necessário */
     }
-
-    
-
 
 }
 
