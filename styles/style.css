@@ -2,8 +2,6 @@
     --cor-fundo: #2cbfe3;
     --cor-snap: #FF6663;
 
-/*#8B85C1; */
-    /* #92D5E6; */
     --cor-fundo-forms: #45cef0;
 
     --cor-primaria: #f3bb22;
@@ -25,7 +23,6 @@ body {
     font-family: var(--fonte-unica-texto);
     font-weight: 400;
     font-style: normal;
-
     margin: 0 auto;
     padding: 25px 35px 0px 35px;
     width: 90vw;
@@ -59,13 +56,11 @@ body {
     align-items: center;
 }
 
-
-
-
 i#menu{
     display: none;
     font-size: 54px;
 }
+
 
 
 
@@ -81,19 +76,16 @@ i#menu{
 
 #inscreva-se {
     color: var(--cor-terciaria);
-
     border: 2px solid var(--cor-primaria);
     background-color: var(--cor-primaria);
     padding: 10px;
     border-radius: 15px;
     text-decoration: none;
-    /* margin: 30px 30px 0 30px; */
 }
 
 #inscreva-se:hover {
     border: 2px solid;
     border-color: var(--cor-secundaria);
-
     background-color: var(--cor-secundaria);
 }
 
@@ -186,7 +178,6 @@ span {
     margin-top: 20px;
 }
 
-
 .formulario {
     display: flex;
     flex-wrap: wrap;
@@ -203,7 +194,6 @@ span {
     color: var(--cor-terciaria);
     font-weight: bold;
     border: 2px;
-    /* font-size: 1.125rem; */
 }
 
 .enviar:hover {
@@ -218,7 +208,6 @@ input {
     border-radius: 20px;
     border: none;
     width: 70%;
-    /* font-size: 1rem; */
 }
 
 .sub_subtitulo {
@@ -239,7 +228,6 @@ input {
     color: var(--cor-terciaria);
     font-weight: 300;
     font-style: normal;
-
 }
 
 
